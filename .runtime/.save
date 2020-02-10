@@ -1,0 +1,8 @@
+#Mon Feb 10 18:09:21 CET 2020
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///home/sprocket/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///home/sprocket/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.diagram.editor.OpenedDiagrams2='Activity Activity diagram' {72caa43e-7e08-430a-bab8-2b2a1093cb7d} Standard.ActivityDiagram
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///home/sprocket/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.diagram.editor.OpenedDiagrams1='Use Case diagram' {0137ab51-f57f-4783-9bd5-827844bf424a} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Class diagram' {5c0abc07-2c19-4785-ac74-94e011224744} Standard.ClassDiagram
+org.modelio.module.propertytab.JavaDesigner\ v3.9.00\ GModule\ @file\:///home/sprocket/.modelio/4.0/modules/JavaDesigner_3.9.00/JavaDesigner_3.9.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom

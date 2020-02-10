@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Space Challenge" version="4">
+  <OBJECT>
+    <ID name="Space Challenge" mc="Standard.Package" uid="c5142b8c-472e-4c5b-824f-8d7b5d4cc3a9"/>
+    <PID name="Project1" mc="Standard.Project" uid="fbf3fe23-dbe5-4475-8dd3-4266eaf51cc2"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Space Challenge]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="aae7f740-3b6f-4a92-8072-bd2fb4c513a4"/>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="launch succes" mc="Standard.InformationFlow" uid="c44aab90-54d9-4f96-9f19-cba98c8fdf67"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[launch succes]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="launch U1 rocket" mc="Standard.UseCase" uid="4aa62667-61d7-4617-bd30-ccd3218bbfbb"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="land U1 rocket" mc="Standard.UseCase" uid="cffd57cf-b514-4873-b0c1-813af32b1837"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Count $$" mc="Standard.InformationFlow" uid="c588c811-63f2-4c44-a258-aea9b036937f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Count $$]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="launch U1 rocket" mc="Standard.UseCase" uid="4aa62667-61d7-4617-bd30-ccd3218bbfbb"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Count Budget" mc="Standard.UseCase" uid="1dbbf29d-bf4f-4088-a1c7-d5d984d6f135"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="land failure" mc="Standard.InformationFlow" uid="f036bb21-b279-48c9-a668-45c15094ec76"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[land failure]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="land U1 rocket" mc="Standard.UseCase" uid="cffd57cf-b514-4873-b0c1-813af32b1837"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="launch U1 rocket" mc="Standard.UseCase" uid="4aa62667-61d7-4617-bd30-ccd3218bbfbb"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="SpaceShip" mc="Standard.Interface" uid="fcad399f-067d-4ce6-a405-dd1287d96a8d"/>
+        <COMPID name="Rocket" mc="Standard.Class" uid="7badb10b-e8b8-4a29-a246-4f5b2055f7c0"/>
+        <COMPID name="U1" mc="Standard.Class" uid="bd478ae7-ea3e-4cb6-8886-98002b653aa2"/>
+        <COMPID name="Item" mc="Standard.Class" uid="82eff521-6f1c-4555-a4e1-7633db598c21"/>
+        <COMPID name="U2" mc="Standard.Class" uid="3ecd0bfb-95b9-4ed2-8289-688281f8c220"/>
+        <COMPID name="Simulation" mc="Standard.Class" uid="391a3a7e-e6be-4122-8cb7-b454d4869db9"/>
+        <COMPID name="Main" mc="Standard.Actor" uid="bb957c7c-b4e8-45d5-ab97-bc62ae69cf94"/>
+        <COMPID name="Prepare items" mc="Standard.UseCase" uid="b2a231ae-e766-4e77-b9f5-baa80c7272ad"/>
+        <COMPID name="load U1 rocket" mc="Standard.UseCase" uid="cdcc0d5b-f5fb-4760-8800-47c49523c94b"/>
+        <COMPID name="Run simulation" mc="Standard.UseCase" uid="a8b38449-727f-4a12-a424-6487eca191aa"/>
+        <COMPID name="run Simulation" mc="Standard.Actor" uid="aa4c134b-bc18-4aac-a257-fd8ea9b064e7"/>
+        <COMPID name="launch U1 rocket" mc="Standard.UseCase" uid="4aa62667-61d7-4617-bd30-ccd3218bbfbb"/>
+        <COMPID name="land U1 rocket" mc="Standard.UseCase" uid="cffd57cf-b514-4873-b0c1-813af32b1837"/>
+        <COMPID name="Count Budget" mc="Standard.UseCase" uid="1dbbf29d-bf4f-4088-a1c7-d5d984d6f135"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Class diagram" mc="Standard.ClassDiagram" uid="5c0abc07-2c19-4785-ac74-94e011224744"/>
+        <COMPID name="Use Case diagram" mc="Standard.UseCaseDiagram" uid="0137ab51-f57f-4783-9bd5-827844bf424a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
